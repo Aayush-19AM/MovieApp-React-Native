@@ -90,6 +90,7 @@ export default function SearchScreen() {
                  />
                  <Text className="text-neutral-400 ml-1">
                      {/* {item?.title.length>20?item?.title.slice(0,20)+'...':item?.title}     */}
+                     {/* Just checking */}
                      {item?.title && item.title.length > 20 ? item.title.slice(0, 20) + '...' : item?.title}    
                  </Text>
                      </View>
