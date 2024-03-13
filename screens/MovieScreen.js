@@ -162,12 +162,13 @@ export default function MovieScreen() {
             {/* cast */}
             {cast.length>0 && <Cast navigation={navigation} cast={cast} />}
 
+{/* InitialCommit */}
 
             {/* Similar Movies */}
 {/* Similar Movies */}
 {similarMovies.length>0 && <MovieList title="Similar Movies" hideSeeAll data={similarMovies}></MovieList>
 }
         </ScrollView>
-        
+
     )
 }
