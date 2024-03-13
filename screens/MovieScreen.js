@@ -168,5 +168,6 @@ export default function MovieScreen() {
 {similarMovies.length>0 && <MovieList title="Similar Movies" hideSeeAll data={similarMovies}></MovieList>
 }
         </ScrollView>
+        
     )
 }
