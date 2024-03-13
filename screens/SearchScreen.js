@@ -89,7 +89,8 @@ export default function SearchScreen() {
                  style={{width:width*0.4,height:height*0.3}}
                  />
                  <Text className="text-neutral-400 ml-1">
-                     {item?.title.length>20?item?.title.slice(0,20)+'...':item?.title}    
+                     {/* {item?.title.length>20?item?.title.slice(0,20)+'...':item?.title}     */}
+                     {item?.title && item.title.length > 20 ? item.title.slice(0, 20) + '...' : item?.title}    
                  </Text>
                      </View>
                  </TouchableWithoutFeedback>
